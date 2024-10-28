@@ -5,9 +5,12 @@ const app = express();
 
 app.use(cors({}))
 
+
 app.use('/auth',authRoute)
 
-const port = process.env.PORT
+
+const port = process.env.PORT || 9000
+
 app.listen(port,()=>{
     console.log("server running on port",port)
 })
