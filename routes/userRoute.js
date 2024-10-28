@@ -6,6 +6,7 @@ const userRoute = express.Router();
 userRoute.get('/',()=>{})
 userRoute.post('/',()=>{})
 userRoute.patch('/',()=>{})
+userRoute.delete('/',()=>{})
 
 
 
